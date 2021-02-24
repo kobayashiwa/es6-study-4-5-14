@@ -48,32 +48,25 @@ ul, li {
 header {
 	width: 100%;
 	height: 102px;
-	background: rgba(217, 4, 43, 0.5);
 	position: relative;
 }
-
-
-
-
-
-
-
-
-
-
-header p {
-	position: absolute;
-	top: 50%;
-	transform: translate(0, -50%);
-}
 .logo {
-	width: 160px;
-	height: 160px;
+	width: 66px;
+	height: 40px;
 	background: rgba(217, 4, 43, 0.5);
 	position: absolute;
 	top: 0;
 	left: 0;
 }
+
+
+
+
+
+
+
+
+
 nav {
 	width: 160px;
 	height: 160px;
