@@ -1,0 +1,127 @@
+/** base **/
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body {
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	background: #fff;
+	font-family: 'Roboto Condensed', "Segoe UI", "Helvetica Neue", HelveticaNeue, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Verdana, Meiryo, sans-serif;
+    font-feature-settings: "palt";
+	letter-spacing: .8px;
+	font-size: 16px;
+	font-weight: 300;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: 300;
+}
+p {
+	line-height: 180%;
+}
+a {
+	text-decoration: none;
+	color: #1a1a1a;
+}
+ul, li {
+	list-style: none;
+}
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.flex {
+	display: flex;
+}
+
+/** header **/
+header {
+	width: 100%;
+	height: 360px;
+	background: rgba(217, 4, 43, 0.5);
+	position: relative;
+}
+header p {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+.logo {
+	width: 160px;
+	height: 160px;
+	background: rgba(217, 4, 43, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+nav {
+	width: 160px;
+	height: 160px;
+	background: rgba(217, 4, 43, 0.5);
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+@media screen and (max-width: 1024px) {
+	.logo {
+		width: 90px;
+		height: 90px;
+	}
+	nav {
+		width: 90px;
+		height: 90px;
+	}
+}
+
+/** main **/
+main {
+	width: 100%;
+	background: hsl(214, 97%, 23%, 0.5);
+}
+.home-description {
+	width: 100%;
+	height: 200px;
+	background: hsl(214, 97%, 23%, 0.1);	
+}
+.home-housing {
+	width: 100%;
+	height: 200px;
+	background: hsl(214, 97%, 23%, 0.2);
+}
+.home-renovation {
+	width: 100%;
+	height: 200px;
+	background: hsl(214, 97%, 23%, 0.3);
+}
+.home-journal {
+	width: 100%;
+	height: 200px;
+	background: hsl(214, 97%, 23%, 0.4);
+}
+.home-property-agent {
+	width: 100%;
+	height: 200px;
+	background: hsl(214, 97%, 23%, 0.5);
+}
+.home-footer {
+	width: 100%;
+	height: 200px;
+	background: hsl(214, 97%, 23%, 0.6);
+}
+
+/** footer **/
+footer {
+	width: 100%;
+	height: 200px;
+	background: #037F8C;
+}
