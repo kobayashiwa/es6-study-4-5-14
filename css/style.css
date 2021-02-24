@@ -65,23 +65,23 @@ header {
 .logo a span {
 	display: none;
 }
-
-
-
-
-
-
-
-
-
 nav {
-	width: 160px;
-	height: 160px;
-	background: rgba(217, 4, 43, 0.5);
+	width: 42px;
+	height: 42px;
+	background: rgba(0, 0, 0);
 	position: absolute;
 	top: 0;
 	right: 0;
 }
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1024px) {
 	.logo {
 		width: 90px;
