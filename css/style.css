@@ -51,14 +51,20 @@ header {
 	position: relative;
 }
 .logo {
+	position: absolute;
+	top: 30px;
+	left: 50px;
+}
+
+
+/** footer
+.logo a {
 	width: 66px;
 	height: 40px;
 	background-image: url(../img/logo01.png);
-	position: absolute;
-	top: 0;
-	left: 0;
+	
 }
-
+**/
 
 
 
