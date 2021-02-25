@@ -80,6 +80,11 @@ nav {
 	.logo {
 		left: 30px;
 	}
+	.logo a {
+		width: 33px;
+		height: 20px;
+		background-size: 33px;
+	}
 }
 /** main
 @media screen and (max-width: 1024px) {
