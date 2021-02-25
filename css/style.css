@@ -125,6 +125,11 @@ main {
 	height: 140px;
 	background: hsl(214, 97%, 23%, 0.5);
 }
+@media screen and (max-width: 768px) {
+	main {
+		margin-top: 75px;
+	}	
+}
 
 /** footer **/
 footer {
