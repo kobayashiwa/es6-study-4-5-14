@@ -96,6 +96,7 @@ nav {
 
 /** main **/
 main {
+	margin-top: 102px;
 	width: 100%;
 	background: hsl(214, 97%, 23%, 0.5);
 }
